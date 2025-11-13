@@ -1874,96 +1874,6 @@ a {
 .cid-v27VW0eAK5 .media-container-row .mbr-text {
   color: #fafafa;
 }
-.cid-v2p01D4ejM {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #eae7dc;
-}
-.cid-v2p01D4ejM .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-v2p01D4ejM .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-v2p01D4ejM .timelines-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.cid-v2p01D4ejM .timeline-element {
-  position: relative;
-}
-.cid-v2p01D4ejM .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-v2p01D4ejM .iconBackground {
-  position: absolute;
-  left: 33.33%;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 2px solid #6592e6;
-  top: 30px;
-  margin-left: -9px;
-  padding: 0;
-}
-.cid-v2p01D4ejM .separline:before {
-  top: 50px;
-  bottom: 0;
-  position: absolute;
-  content: "";
-  width: 2px;
-  background-color: #6592e6;
-  left: 33.33%;
-  height: calc(100% + 30px);
-}
-@media (max-width: 767px) {
-  .cid-v2p01D4ejM .iconBackground {
-    left: 15px !important;
-  }
-  .cid-v2p01D4ejM .separline:before {
-    left: 15px !important;
-  }
-}
-.cid-v2p01D4ejM .mbr-section-title,
-.cid-v2p01D4ejM .mbr-section-subtitle {
-  text-align: center;
-}
-@media (max-width: 767px) {
-  .cid-v2p01D4ejM .time-line-date-content {
-    margin-left: 1rem;
-  }
-  .cid-v2p01D4ejM .time-line-date-content .mbr-timeline-date {
-    text-align: center;
-  }
-}
-@media (min-width: 768px) {
-  .cid-v2p01D4ejM .time-line-date-content {
-    margin-right: 1rem;
-  }
-  .cid-v2p01D4ejM .time-line-date-content .mbr-timeline-date {
-    text-align: right;
-  }
-}
-.cid-v2p01D4ejM .timeline-text-content {
-  margin-left: 2rem;
-}
-.cid-v2p01D4ejM .reverseTimeline {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.cid-v2p01D4ejM .mbr-timeline-date {
-  text-align: right;
-}
-.cid-v2p01D4ejM .mbr-text {
-  color: #000000;
-}
 .cid-sFF0ciwnEL {
   z-index: 1000;
   width: 100%;
@@ -2315,6 +2225,96 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-v2p01D4ejM {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #eae7dc;
+}
+.cid-v2p01D4ejM .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-v2p01D4ejM .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-v2p01D4ejM .timelines-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cid-v2p01D4ejM .timeline-element {
+  position: relative;
+}
+.cid-v2p01D4ejM .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-v2p01D4ejM .iconBackground {
+  position: absolute;
+  left: 33.33%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #6592e6;
+  top: 30px;
+  margin-left: -9px;
+  padding: 0;
+}
+.cid-v2p01D4ejM .separline:before {
+  top: 50px;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #6592e6;
+  left: 33.33%;
+  height: calc(100% + 30px);
+}
+@media (max-width: 767px) {
+  .cid-v2p01D4ejM .iconBackground {
+    left: 15px !important;
+  }
+  .cid-v2p01D4ejM .separline:before {
+    left: 15px !important;
+  }
+}
+.cid-v2p01D4ejM .mbr-section-title,
+.cid-v2p01D4ejM .mbr-section-subtitle {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .cid-v2p01D4ejM .time-line-date-content {
+    margin-left: 1rem;
+  }
+  .cid-v2p01D4ejM .time-line-date-content .mbr-timeline-date {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .cid-v2p01D4ejM .time-line-date-content {
+    margin-right: 1rem;
+  }
+  .cid-v2p01D4ejM .time-line-date-content .mbr-timeline-date {
+    text-align: right;
+  }
+}
+.cid-v2p01D4ejM .timeline-text-content {
+  margin-left: 2rem;
+}
+.cid-v2p01D4ejM .reverseTimeline {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.cid-v2p01D4ejM .mbr-timeline-date {
+  text-align: right;
+}
+.cid-v2p01D4ejM .mbr-text {
+  color: #000000;
 }
 .cid-v27VW0eAK5 {
   padding-top: 2rem;
