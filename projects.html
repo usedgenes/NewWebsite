@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=8fL15X"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=8fL15X" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=eO6xil"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=eO6xil" type="text/css">
 
   
   
@@ -93,8 +93,7 @@
             <div class="col-12 col-lg-6">
                 <div class="image-wrapper">
                     <img src="assets/images/screenshot202025-11-0920093634-641x920.png" alt="Mobirise Website Builder">
-                    <p class="mbr-description mbr-fonts-style pt-2 align-center display-4">
-                    Image Description</p>
+                    
                 </div>
             </div>
             <div class="col-12 col-lg">
@@ -102,7 +101,7 @@
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
                         <strong>FPAA Standard Cell Development</strong><br>(Oct. 2025 - Present)</h3>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        As a part of the Integrated Computational Electronics Lab at Georgia Tech, I've been familiarizing myself with VLSI design, using tools like Xschem for schematic creation and Magic VLSI for layout design, targeting the Sky-130nm process node. I'm actively working on making standard cells for a library to use to design Field Programmable Analog Arrays that the lab is working on. The goal is to make analog circuits more widespread, as there is very little in the way of analog EDA software currently.</p>
+                        As a part of the Integrated Computational Electronics Lab at Georgia Tech, I've been familiarizing myself with VLSI design, using tools like Xschem for schematic creation and Magic VLSI for layout design, specifically targeting the Sky-130nm process node. I'm actively creating standard cells for a library to use to design Field Programmable Analog Arrays that the lab is working on. The goal is to open-source our designs and help analog circuits more widespread, as there is very little in the way of analog EDA software currently.</p>
                 </div>
             </div>
         </div>
@@ -127,7 +126,7 @@
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
                         <strong>Airbrake + Carbon Fiber Rocket</strong><br>(Dec. 2023 - March 2025)<strong><br></strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">Initially, I started this project with the goal of creating an airbrake mechanism to actively control the speed of a model rocket in flight. The idea was to use an Arduino flight computer to measure the live velocity, and then use a PID control loop to deploy flaps that would increase/decrease the rocket's coefficient of drag accordingly. After iterating through different designs, I was able to get the mechanism to achieve landings within 1 foot of a pre-determined target altitude.&nbsp;<br>Along the way, I also started a side-project manufacturing my own custom carbon-fiber tubes, as I wanted to increase the structural strength along with the reusability of my rocket tubes.&nbsp;</p>
+                    <p class="mbr-text mbr-fonts-style display-7">I started this project with the goal of creating an airbrake mechanism to actively control the speed of a model rocket in flight. The idea was to use an Arduino flight computer to measure the live velocity, and then use a PID control loop to deploy flaps that would increase/decrease the rocket's coefficient of drag accordingly. After iterating through different designs, I was able to get the mechanism to achieve landings within 1 foot of a pre-determined target altitude.&nbsp;<br>Along the way, I also started a side-project manufacturing my own custom carbon-fiber tubes, as I wanted to increase the structural strength along with the reusability of my rocket tubes. After 10+ iterations, I was able to successfully achieve both of those goals, and I reduced replacement costs by 50% compared to traditional paper airframes used to build rockets.<br><a href="https://github.com/usedgenes/Airbrake" class="text-info">https://github.com/usedgenes/Airbrake</a></p>
                 </div>
             </div>
         </div>
@@ -152,7 +151,7 @@
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
                         <strong>PCB Flight Computer</strong><br>(June 2024 – Dec. 2024)</h3>
-                    <p class="mbr-text mbr-fonts-style display-7">This project was an extension of the airbrake project above. After using my Arduino flight computer for a while, I was unsatisfied with its size and complexity, as the wire management was an avoidable annoyance. So, I started learning how to design my own PCBs and got them manufactured. This final iteration of my flight computer used an ESP32, and had two altimeters, two IMUS, and one magnetometer.&nbsp;</p>
+                    <p class="mbr-text mbr-fonts-style display-7">This project was an extension of the airbrake project above. After using my Arduino flight computer for a while, I was unsatisfied with its size and complexity, especially the wires that got in the way of everything. So, I started learning how to design my own PCBs and got them manufactured. This final iteration of my flight computer used an ESP32, and uses two altimeters, two IMUS, and one magnetometer for sensor data. It also has an SD card module for data logging, a buzzer and LEDs for user feedback, and 5 pins to connect servos to.&nbsp;<br><a href="https://github.com/usedgenes/Flight-Computer-PCB" class="text-info">https://github.com/usedgenes/Flight-Computer-PCB</a></p>
                 </div>
             </div>
         </div>
@@ -176,7 +175,7 @@
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>iOS Rocketry Assistant App</strong><br><strong>(June 2024 – Dec. 2024)</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">This project was also an extension of the above project, the PCB flight computer. Since ESP32 has Bluetooth capabilities, I decided to take advantage of that and coded my own iOS app to help with control and debugging. Without any prior experience with app development, I had to learn Swift from scratch, though it was a very fun learning experience overall. Features include: visualizing sensor data through graphs, changing PID coefficients live, controlling servos live, and changing current rocket state for software-in-the-loop testing.<br></p>
+                    <p class="mbr-text mbr-fonts-style display-7">This project was also an extension of the above project, the PCB flight computer. Since ESP32 has Bluetooth capabilities, I decided to take advantage of that and coded my own iOS app to help with control and debugging. Without any prior experience with app development, I had to learn Swift from scratch, though it was a very fun learning experience overall. The app included the following features: visualizing sensor data through graphs, changing PID coefficients and controlling servos live, and changing current rocket state for software-in-the-loop testing.<br><a href="https://github.com/usedgenes/RocketController" class="text-info">https://github.com/usedgenes/RocketController</a><br><br></p>
                 </div>
             </div>
         </div>
@@ -220,10 +219,6 @@
                         <a href="https://github.com/usedgenes" target="_blank">
                             <span class="mbr-iconfont mbr-iconfont-social socicon-github socicon"></span>
                         </a>
-                    </div><div class="soc-item">
-                        <a href="https://github.com/usedgenes" target="_blank">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-github socicon"></span>
-                        </a>
                     </div></div>
             </div>
             <div class="row row-copirayt">
@@ -231,7 +226,7 @@
             </div>
         </div>
     </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/ai-website-generator.html">AI Website Generator</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com">Mobirise.com </a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 </body>
